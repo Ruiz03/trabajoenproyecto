@@ -1,36 +1,47 @@
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #868484;
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    background-image: url('../imagen/9e12d1c4-eb8f-4aa1-abbb-68b5f465d04a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 
 .contenedor {
-    background-color: rgb(168, 164, 164);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.739);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.imagen-contenedor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.imagen-circular {
+    width: 90px;
+    height: 90px;
+    border-radius: 300%;
+    object-fit: cover;
+    background-color: aliceblue;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+}
 
 label {
     display: block;
     margin: 10px 0 5px;
 }
-
 
 input[type="text"], input[type="password"] {
     width: 100%;
@@ -40,11 +51,10 @@ input[type="text"], input[type="password"] {
     border-radius: 4px;
 }
 
-
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #242526;
     color: white;
     border: none;
     border-radius: 4px;
@@ -52,11 +62,9 @@ button {
     font-size: 16px;
 }
 
-
 button:hover {
-    background-color: #0056b3;
+    background-color: #4e4f50;
 }
-
 
 p {
     text-align: center;
@@ -64,7 +72,7 @@ p {
 }
 
 a {
-    color: #007bff;
+    color: #939a96;
     text-decoration: none;
 }
 
