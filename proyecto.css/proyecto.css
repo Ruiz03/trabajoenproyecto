@@ -1,4 +1,3 @@
-
 html, body {
     height: 100%;
     margin: 0;
@@ -17,18 +16,26 @@ html, body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .imagen-contenedor {
     display: flex;
     justify-content: center;
+    align-items: center; 
+    width: 150px; 
+    height: 150px; 
     margin-bottom: 10px;
+    background-color: aliceblue; 
+    border-radius: 50%; 
 }
 
 .imagen-circular {
-    width: 90px;
-    height: 90px;
-    border-radius: 300%;
+    width: 60px; 
+    height: 75px; 
     object-fit: cover;
     background-color: aliceblue;
 }
